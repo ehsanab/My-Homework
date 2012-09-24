@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>ehsan menu</title>
+	<style type="text/css">
+		* {
+			padding : 0;
+			margin  : 0;
+		}
+
+		.badboy {
+			width  : 0;
+			height : 0;
+			clear  : both;
+		}
+
+		nav.menu {
+			width: 850px;
+			margin-right: auto;
+			margin-left : auto;
+			margin-top   : 10px;
+			background: #373b3c;
+			border: 5px ridge #999;
+		}
+
+		nav.menu menu {
+			list-style-type : none;
+		}
+
+		nav.menu li {
+			float        : left;
+			position     : relative;
+			border-right: 2px groove #666;
+			height: 43px;
+		}
+
+		nav.menu li:hover {
+			background: url(orange.jpg);
+			background-repeat: repeat-x;
+			background-color: #333;
+
+		}
+
+		nav.menu > menu > li:first-child {
+			border-left : 2px groove #666;
+
+		}
+
+		nav.menu a {
+			color       : #d4d4d4;
+			display     : block;
+			padding     :11px 14px 9px;
+			font-family : "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+			font-size   : 18px;
+			text-transform  : capitalize;
+			text-decoration : none;
+			white-space     : nowrap;
+		}
+
+		nav.menu li menu {
+			min-width : 100%;
+			position  : absolute;
+			left      : 0;
+			top       : 100%;
+			display   : none;
+			background: #666;
+		}
+
+		nav.menu li:hover menu{
+			display   : block;
+		}
+
+		nav.menu li li {
+			float       : none;
+			border      : none;
+			border-top: 2px groove #666;
+		}
+		nav.menu menu a:hover{
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<menu>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Pirvacy</a></li>
+			<li>
+				<a href="#">Our Sponssors</a>
+				<menu>
+					<li><a href="#">logo</a></li>
+					<li><a href="#">poster</a></li>
+					<li><a href="#">catalogue</a></li>
+					<li><a href="#">business card</a></li>
+				</menu>
+			</li>
+			<li><a href="#">Advertise With Us</a></li>
+			<li>
+				<a href="#">Contact</a>
+				<menu>
+					<li><a href="#">group 1</a></li>
+					<li><a href="#">group 2</a></li>
+					<li><a href="#">group 3</a></li>
+					<li><a href="#">group 4</a></li>
+				</menu>
+			</li>
+			<li><a href="#">Gallery</a></li>
+		</menu>
+		<div class="badboy"></div>
+	</nav>
+	<p>this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. </p>
+</body>
+</html>

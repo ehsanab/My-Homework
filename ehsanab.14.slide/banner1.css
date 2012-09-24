@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section.topbanner{
+	width: 650px;
+	height: 327px;
+	overflow: hidden;
+	margin: 50px auto 0;
+	border-radius: 20px;
+	border: 10px ridge #aaa;
+}
+
+section.topbanner ul.top{
+	list-style-type: none;
+	height: inherit;
+	width: 2000px;
+}
+
+section.topbanner ul.top li{
+	height: inherit;
+	float: left;
+	width: 130px;
+	-webkit-transition: width 500ms;
+	transition: width 500ms;
+}
+
+section:hover ul.top li{
+	width: 50px;
+}
+
+section ul.top li:hover{
+	width: 450px;
+}
+
+section ul.top li:last-child{
+	padding-right: 300px;
+}

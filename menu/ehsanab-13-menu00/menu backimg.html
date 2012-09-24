@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>my menu00</title>
+	<style type="text/css">
+		* {
+			padding : 0;
+			margin  : 0;
+		}
+
+		.badboy {
+			width  : 0;
+			height : 0;
+			clear  : both;
+		}
+
+		nav.menu {
+			margin-top   : 10px;
+			padding-left : 30px;
+			background   : url('menu1_bg.gif') repeat-x;
+		}
+
+		nav.menu menu {
+			list-style-type : none;
+		}
+
+		nav.menu li {
+			float       : left;
+			height      : 43px;
+
+		}
+		nav.menu menu li:hover{
+			background:url(checked.gif) no-repeat left;
+		}
+
+		nav.menu a {
+			color       : #888;
+			display     : block;
+			padding     : 11px 14px 9px;
+			font-family : "Times New Roman", Times, serif;
+			font-size   : 18px;
+			text-transform  : capitalize;
+			text-decoration : none;
+			margin-top: -3px;
+			text-align: center;
+		}
+
+		nav.menu li:hover a{
+			color : #fff;
+		}
+		nav.menu div.left_menu_side,div.right_menu_side{
+			float: left;
+		}
+		
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<div class="left_menu_side">
+			<img src="left_menu_side2.gif" />
+		</div>
+		<menu>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Pirvacy</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Our Spossors</a></li>
+			<li><a href="#">gallery</a></li>
+			<li><a href="#">Advertise With Us</a></li>
+		</menu>
+		<div class="right_menu_side">
+			<img src="right_menu_side2.gif" />
+		</div>
+		<div class="badboy"></div>
+	</nav>
+	<p>this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. this is sample (jafang) text. </p>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #F2F2F2;
+	padding: 20px 0 10px;
+}
+
+div.container{
+	outline: 1px dashed red;;
+	width: 950px;
+	margin: 0 auto;
+	background-image: url('backguid.jpg');
+	background-repeat: no-repeat;
+	padding: 1px;
+}
+
+div.badboy{
+	width: 0;
+	height: 0;
+	min-height: 0!important;
+	min-height: 0!important;
+	float: none!important;
+	clear: both!important;
+}
+
+section.left{
+	float: left;
+}
+
+section.right{
+	float: right;
+}
+
+section{
+	outline: 1px dashed red;
+}
+
+header{
+	min-height: 139px;
+}
+
+header section.left{
+	outline: 1px dashed blue;
+	width: 370px;
+	min-height: 110px;
+	margin: 10px 
+}
+
+header section.right{
+	outline: 1px dashed blue;
+	width: 370px;
+	min-height: 110px;
+	margin: 10px 
+}
+
+header section.center{
+	outline: 1px dashed blue;
+	width: 145px;
+	min-height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+}
+
+div.content{
+	outline: 1px dashed red;
+	min-height: 521px;
+}
+
+div.content section.left{
+	outline: 1px dashed blue;
+	width: 500px;
+	min-height: 450px;
+	margin: 3px 5px 0 3px;
+}
+
+div.content section.right{
+	outline: 1px dashed blue;
+	width: 434px;
+	min-height: 450px;
+	margin: 3px 5px 0 3px;
+}
+
+footer{
+	min-height: 200px;
+}
+
+footer section.img{
+	outline: 1px dashed blue;
+	min-height: 74px;
+	margin-top: 26px;
+}
+
+footer section.icons{
+	outline: 1px dashed blue;
+	min-height: 50px;
+}
+
+footer section.copyright{
+	outline: 1px dashed blue;
+	min-height: 76px;
+}

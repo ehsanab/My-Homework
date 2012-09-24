@@ -1,0 +1,242 @@
+body{
+	padding : 20px 0 10px;
+}
+
+div.container{
+	outline : 2px solid black;
+}
+
+/* floor1(header)
+------------------------------------------------*/
+header.tophead{
+	min-height	: 90px;
+	outline		: 1px dashed blue;
+}
+
+div.topmail{
+	margin-top 	: 5px;
+	min-height 	: 25px;
+	outline		: 1px dashed red;
+}
+
+div.topmenu{
+	min-height 	: 65px;
+	outline 	: 1px dashed green;
+	margin-top 	: 40px;
+}
+
+div.logo{
+	margin-top 	: 5px;
+	margin-left : 10px;
+	min-height	: 50px;
+	outline		: 1px dashed green;
+}
+
+div.img{
+	margin-left : 10px;
+	margin-top	: 5px;
+	min-height	: 40px;
+	outline		: 1px dashed green;
+}
+
+div.p{
+	margin-right: 10px;
+	margin-top	: 5px;
+	min-height	: 40px;
+	outline		: 1px dashed green;
+}
+
+div.mainmenu{
+	margin-right: 10px;
+	outline		: 1px dashed green;
+	min-height	: 50px;
+	margin-top	: 5px;
+}
+
+/* floor2(center)
+--------------------------------------------------------*/
+div.banner{
+	margin-top 	: 10px;
+	outline		: 1px dashed red;
+	min-height	: 500px;
+}
+
+section.leftpanel{
+	margin-left : 10px;
+	outline		: 1px dashed blue;
+	min-height	: 420px;
+}
+
+section.rightpanel{
+	margin-right: 10px;
+	outline 	: 1px dashed blue;
+	min-height 	: 470px;
+}
+
+section.img{
+	outline	 	: 1px dashed blue;
+	min-height 	: 120px;
+}
+
+section.text{
+	outline 	: 1px dashed blue;
+	min-height	: 310px;
+}
+
+section.link{
+	outline		: 1px dashed blue;
+	min-height	: 30px;
+}
+
+div.recentwork{
+	outline		: 1px dashed red;
+	min-height	: 25px;
+	margin 		: 0 10px 0;
+}
+
+section.title{
+	outline 	: 1px dashed blue;
+	min-height	: 25px;
+}
+
+section.discriminant{
+	outline		: 1px dashed blue;
+	min-height	: 25px;
+}
+
+/* floor3(news)
+------------------------------------------------------*/
+div.news{
+	margin-top 	: 20px;
+	outline		: 1px dashed red;
+	min-height 	: 250px;
+}
+
+div.topnews{
+	margin-top	: 10px;
+	outline 	: 1px dashed blue;
+	min-height	: 230px;
+}
+
+div.newsimg{
+	margin 	: 0 10px 0;
+	outline : 1px dashed green;
+	min-height: 150px;
+}
+
+div.newstext{
+	margin : 0 10px 0;
+	outline: 1px dashed green;
+	min-height: 60px;
+}
+
+div.discriminant{
+	outline 	: 1px dashed green;
+	min-height 	: 20px;
+}
+
+/* floor4(footer)
+--------------------------------------------------------*/
+footer{
+	margin-top 	: 10px;
+	outline 	: 1px dashed red;
+	min-height 	: 400px;
+}
+
+footer div.toppanel{
+	outline 	: 1px dashed blue;
+	min-height 	: 300px;
+}
+
+footer div.toppanel div.titles{
+	
+	margin-top 	: 15px;
+	outline 	: 1px dashed blue;
+	min-height 	: 30px;
+}
+
+div.ftitle{
+	margin-top	: 2px;
+	outline 	: 1px dashed green;
+	min-height	: 25px;
+}
+
+div.ftitleimg{
+	margin-top	: 2px;
+	outline 	: 1px dashed green;
+	min-height	: 25px;
+}
+
+div.post{
+	margin 	: 10px 10px;
+	outline : 1px dashed blue;
+	min-height: 160px;
+}
+
+div.poster{
+	margin-left : 10px;
+	outline 	: 1px dashed blue;
+	min-height	: 160px;
+	margin-top	: 30px;
+	margin-bottom: 10px;
+}
+
+div.postimg{
+	margin : 10px 0 0 5px;
+	outline: 1px dashed green;
+	min-height: 55px;
+}
+
+div.posttiltle{
+	margin-top  :10px ;
+	margin-right:5px ;
+	outline 	: 1px dashed green;
+	min-height  : 20px;
+}
+
+div.posttext{
+	margin-top 		: 10px;
+	margin-bottom   : 10px;
+	margin-right 	: 5px;
+	outline 		: 1px dashed green;
+	min-height		: 100px;
+}
+
+div.follow{
+	outline 	: 1px dashed green;
+	min-height 	: 25px;
+	margin-top 	: 80px;
+}
+
+footer div.bottompanel{
+	outline 	: 1px dashed blue;
+	min-height	: 100px;
+	margin-top	: 20px;
+}
+
+div.copyright{
+	margin-left : 20px;
+	outline 	: 1px dashed green;
+	min-height 	: 40px;
+	margin-top 	: 30px;
+}
+
+div.bottommenu{
+	margin-right: 20px;
+	outline 	: 1px dashed green;
+	min-height 	: 40px;
+	margin-top 	: 30px;
+}
+
+div.allpost{
+	outline: 1px dashed green;
+	margin : 5px 0 5px 5px;
+}
+
+div.allposters{
+	outline     : 1px dashed green;
+	min-height  : 100px;
+	margin-top  : 5px;
+	margin-left : 5px;
+	margin-right: 5px;
+}

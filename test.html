@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title></title>
+	<style type="text/css">
+		@-webkit-keyframes ani1 {
+			0% {
+				background: darkorange;
+				left: 100px;
+				top: 100px;
+			}
+			100%{
+				background: darkmagenta;
+				left: 200px;
+				top: 200px;
+				width: 400px;
+				height: 400px;
+				border-radius: 200px;
+			}
+		}
+
+		div.box {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			left: 100px;
+			top: 100px;
+
+			-webkit-animation-name: ani1;
+			-webkit-animation-duration: 2s; 
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-direction: alternate;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
